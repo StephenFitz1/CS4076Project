@@ -13,7 +13,7 @@ public:
 
 
 private:
-    string path;
+    string pathToFile;
 };
 
 #endif // FILEWRITER_H
