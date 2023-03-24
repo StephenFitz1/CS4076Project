@@ -1,0 +1,9 @@
+# ninja log v5
+4	1226	7013871975303195	project_autogen/timestamp	9fe27c1639d241f8
+4	1226	7013871975303195	C:/Users/steph/Desktop/CS4076/Project/CS4076Project/build-project-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/project_autogen/timestamp	9fe27c1639d241f8
+4	1226	7013871975303195	C:/Users/steph/Desktop/CS4076/Project/CS4076Project/build-project-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/project_autogen/mocs_compilation.cpp	9fe27c1639d241f8
+1232	3873	7013872004441674	CMakeFiles/project.dir/main.cpp.obj	6e7dd2891a4c9974
+4049	4292	7013872008668944	project.exe	d17c1df0ddad87e0
+4	1226	7013871975303195	project_autogen/mocs_compilation.cpp	9fe27c1639d241f8
+1228	3884	7013872004617809	CMakeFiles/project.dir/project_autogen/mocs_compilation.cpp.obj	b10ecb5dcffccbf9
+1237	4049	7013872006256060	CMakeFiles/project.dir/mainwindow.cpp.obj	37958bd5193f6ea9

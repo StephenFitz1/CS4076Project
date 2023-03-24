@@ -14,43 +14,40 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="closeButton">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>460</y>
+      <x>80</x>
+      <y>370</y>
       <width>83</width>
       <height>29</height>
      </rect>
     </property>
     <property name="text">
-     <string>Close</string>
+     <string>Back</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="createRecipe">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>140</y>
-      <width>131</width>
+      <x>80</x>
+      <y>330</y>
+      <width>83</width>
       <height>29</height>
      </rect>
     </property>
     <property name="text">
-     <string>Create recipe</string>
+     <string>Save</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="viewRecipes">
+   <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>190</y>
-      <width>131</width>
-      <height>29</height>
+      <x>70</x>
+      <y>60</y>
+      <width>81</width>
+      <height>51</height>
      </rect>
-    </property>
-    <property name="text">
-     <string>View recipe(s)</string>
     </property>
    </widget>
   </widget>

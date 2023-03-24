@@ -13,3 +13,21 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_closeButton_clicked()
+{
+    exit(0);
+}
+
+
+void MainWindow::on_createRecipe_clicked()
+{
+
+}
+
+
+void MainWindow::on_viewRecipes_clicked()
+{
+
+}
+

@@ -17,6 +17,14 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        recipes.cpp
+        recipes.h
+        food.cpp
+        food.h
+        fileWriter.cpp
+        fileWriter.h
+        recipeslist.txt
+        recipeCreationWindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

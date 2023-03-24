@@ -15,6 +15,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_closeButton_clicked();
+
+    void on_createRecipe_clicked();
+
+    void on_viewRecipes_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

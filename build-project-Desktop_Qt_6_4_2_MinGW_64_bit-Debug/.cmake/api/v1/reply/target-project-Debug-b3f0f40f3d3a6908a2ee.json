@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 53,
 				"parent" : 0
 			},
 			{
@@ -367,18 +367,21 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				7,
+				9
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "project_autogen::@6890427a1f51a3e7e1df"
+			"id" : "project_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "project_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "project_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "project::@6890427a1f51a3e7e1df",
@@ -485,7 +488,10 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				7,
+				9
 			]
 		},
 		{
@@ -493,7 +499,11 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				6,
+				8,
+				10,
+				13,
+				14
 			]
 		},
 		{
@@ -501,14 +511,16 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				11,
+				12,
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				16
 			]
 		}
 	],
@@ -544,9 +556,58 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "recipes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "recipes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "food.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "food.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "fileWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "fileWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "recipeslist.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "recipeCreationWindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/steph/Desktop/CS4076/Project/CS4076Project/build-project-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/project_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/steph/Desktop/CS4076/Project/CS4076Project/build-project-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/project_autogen/include/ui_recipeCreationWindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
