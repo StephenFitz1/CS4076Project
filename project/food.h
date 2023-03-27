@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class food
+class food : public consumables
 {
     //Constructors to create food objects
     public:
@@ -21,7 +21,7 @@ private:
     string cookingDetails;
 
 
-
+    friend class fileWriter; //so fileWriter can use the values from food to insert to recipes file
 };
 
 

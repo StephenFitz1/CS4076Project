@@ -1,7 +1,7 @@
 Virtual functions
 template classes
 Multiple inheritance
-namespaces
+namespaces DONE
 Programmer defined exceptions
 Unions
 Operator overloading
@@ -13,11 +13,17 @@ C++ Object Construction Sequence
 Initializer List
 C++ References
 Pointers
-Inheritance
-Destructors
-Memory management
-Header files (inclusion guards)
+Inheritance (recipe is a consumable)
+Destructors DONE
+Memory management DONE(i think)
+Header files (inclusion guards) DONE
 Arrays and pointers
-Friendship
+Friendship DONE
 Global variables
-Private, Public, Protected
+Private, Public, Protected (not protected yet, everything else done)
+QMenu
+QCheckBox   (included not working yet)
+QRadioButton
+QSlider     (included not working yet)
+QGridLayout
+QBoxLayout

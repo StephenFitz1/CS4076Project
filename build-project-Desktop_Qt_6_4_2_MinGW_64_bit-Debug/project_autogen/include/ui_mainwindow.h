@@ -24,6 +24,8 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QPushButton *closeButton;
+    QPushButton *createRecipe;
+    QPushButton *viewRecipes;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -37,6 +39,12 @@ public:
         closeButton = new QPushButton(centralwidget);
         closeButton->setObjectName("closeButton");
         closeButton->setGeometry(QRect(50, 460, 83, 29));
+        createRecipe = new QPushButton(centralwidget);
+        createRecipe->setObjectName("createRecipe");
+        createRecipe->setGeometry(QRect(50, 140, 131, 29));
+        viewRecipes = new QPushButton(centralwidget);
+        viewRecipes->setObjectName("viewRecipes");
+        viewRecipes->setGeometry(QRect(50, 190, 131, 29));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -55,6 +63,8 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         closeButton->setText(QCoreApplication::translate("MainWindow", "Close", nullptr));
+        createRecipe->setText(QCoreApplication::translate("MainWindow", "Create recipe", nullptr));
+        viewRecipes->setText(QCoreApplication::translate("MainWindow", "View recipe(s)", nullptr));
     } // retranslateUi
 
 };

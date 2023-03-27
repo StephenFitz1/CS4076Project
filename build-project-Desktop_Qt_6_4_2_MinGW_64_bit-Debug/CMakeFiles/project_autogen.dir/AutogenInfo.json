@@ -253,6 +253,18 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/allergies.h",
+			"MU",
+			"EWIEGA46WW/moc_allergies.cpp",
+			null
+		],
+		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/consumable.h",
+			"MU",
+			"EWIEGA46WW/moc_consumable.cpp",
+			null
+		],
+		[
 			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/fileWriter.h",
 			"MU",
 			"EWIEGA46WW/moc_fileWriter.cpp",
@@ -268,6 +280,12 @@
 			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/recipeMaker.h",
+			"MU",
+			"EWIEGA46WW/moc_recipeMaker.cpp",
 			null
 		],
 		[
@@ -347,6 +365,16 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/allergies.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/consumable.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/fileWriter.cpp",
 			"MU",
 			null
@@ -363,6 +391,11 @@
 		],
 		[
 			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/steph/Desktop/CS4076/Project/CS4076Project/project/recipemaker.cpp",
 			"MU",
 			null
 		],

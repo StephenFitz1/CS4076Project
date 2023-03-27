@@ -7,10 +7,15 @@
 class recipes{
 
 public:
+    recipes();
+    recipes(food food[], allergies allg);
+//    recipes recipesList[];
 
+    void addRecipesToList(food food, allergies allergies);
+    friend class fileWriter;
 
-
-
+private:
+    recipes recipesList[];
 
 };
 

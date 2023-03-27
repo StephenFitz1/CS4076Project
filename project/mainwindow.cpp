@@ -1,5 +1,9 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "food.h"
+#include "recipes.h"
+#include "recipeMaker.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -22,7 +26,9 @@ void MainWindow::on_closeButton_clicked()
 
 void MainWindow::on_createRecipe_clicked()
 {
-
+    recipeMaker *test = new recipeMaker;
+    test->show();
+//    this->hide();
 }
 
 

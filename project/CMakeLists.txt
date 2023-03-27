@@ -24,7 +24,15 @@ set(PROJECT_SOURCES
         fileWriter.cpp
         fileWriter.h
         recipeslist.txt
-        recipeCreationWindow.ui
+        recipemaker.cpp
+        recipemaker.h
+        recipemaker.ui
+        allergies.h
+        allergies.cpp
+        Requirements.txt
+        consumable.cpp
+        consumable.h
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
